@@ -1,0 +1,27 @@
+.statistics {
+  display: block;
+  border: 1px solid #ccc;
+  width: 357px;
+  margin: 0 auto;
+}
+
+.statList {
+  display: flex;
+}
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: aquamarine;
+  border: 1px solid #ccc;
+}

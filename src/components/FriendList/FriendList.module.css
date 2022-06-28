@@ -21,20 +21,20 @@
   font-weight: 600;
 }
 
-.statusRed {
+.status {
   width: 12px;
   height: 12px;
   border-radius: 50%;
   margin-left: 5px;
   margin-right: 10px;
+}
+
+.red {
+  composes: status;
   background-color: red;
 }
 
-.statusGreen {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  margin-left: 5px;
-  margin-right: 10px;
+.green {
+  composes: status;
   background-color: green;
 }
